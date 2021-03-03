@@ -1,7 +1,14 @@
 package one.digitalinnovation.digionebank
 
-abstract class Pessoa(
-    val nome: String,
-    val cpf: String
-)
+class Pessoa {
+    var nome: String = "Jether"
+    var cpf: String = "123.123.123-12"
+}
 
+fun main(){
+    val jether = Pessoa()  //Variavel (objeto) jether recebe a instancia do classe Pessoa
+
+    println(jether.nome)
+    println(jether.cpf)
+
+}
