@@ -10,5 +10,4 @@ fun main(){
 
     println(jether.nome)
     println(jether.cpf)
-
 }
