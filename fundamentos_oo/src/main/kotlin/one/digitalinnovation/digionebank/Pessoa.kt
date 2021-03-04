@@ -16,5 +16,4 @@ fun main(){
     //println(jether.cpf)
 
     println(Pessoa().pessoaInfo())
-
 }
