@@ -5,6 +5,8 @@ class Pessoa {
     var cpf: String = "123.123.123-12"
         private set
 
+    constructor()
+
     fun pessoaInfo() = "$nome e cpf: $cpf"
 
 }
@@ -12,10 +14,10 @@ class Pessoa {
 fun main(){
     val jether = Pessoa()  //Variavel (objeto) jether recebe a instancia do classe Pessoa
 
-    println(jether.nome)
-    println(jether.cpf)
+    //println(jether.nome)
+    //println(jether.cpf)
 
-    println(Pessoa().pessoaInfo())
+    println(jether.pessoaInfo())
 
 
 }
