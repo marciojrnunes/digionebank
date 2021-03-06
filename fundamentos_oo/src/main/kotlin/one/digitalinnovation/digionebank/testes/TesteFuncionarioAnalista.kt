@@ -10,5 +10,6 @@ fun main() {
     //println(joao.salario)
 
     ImprimeRelatorioFuncionario.imprime(joao)
+    //println(joao.toString())
 
 }

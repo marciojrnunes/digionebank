@@ -9,6 +9,7 @@ fun main() {
     //println(joao.cpf)
     //println(joao.salario)
 
-    ImprimeRelatorioFuncionario.imprime(maria)
+    //ImprimeRelatorioFuncionario.imprime(maria)
+    maria.toString()
 
 }
